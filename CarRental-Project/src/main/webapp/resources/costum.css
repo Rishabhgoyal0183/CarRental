@@ -1,0 +1,111 @@
+nav{
+    background-color: rgb(210, 209, 209);
+    border-radius: 20px;
+}
+nav a span{
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+}
+nav label{
+    color: rgb(67, 136, 136);
+    font-weight: bold;
+}
+.navbar-brand{
+    background-color: rgb(232, 232, 232);
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+nav div a{
+    color: rgb(46, 46, 46);
+    font-size: 18px
+}
+nav div a:hover{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+#call{
+    background-color: rgb(77, 124, 144);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 12px;
+}
+#rent_car{
+    width: max-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+#items img{
+    /* height: 150px; */
+    width: 220px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+.items_card{
+    padding-bottom: 10px;
+    background: linear-gradient(to right,rgb(69, 135, 196) 46%,rgb(212, 212, 212) 54%);
+    background-size: 200%;
+    background-position:right;
+    transition: .7s;
+}
+.items_card:hover{
+    background-position: left;
+    color: white;
+}
+.items_card h6{
+    color: gray;
+}
+.items_card:hover h6{
+    color: white;
+    transition: .7s;
+}
+.button_getInTouch{
+    transition: .5s;
+}
+.button_getInTouch:hover{
+    transform: translate(2px,2px);
+}
+#sec-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(banner6.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(212, 210, 210);
+}
+ #sec-1>div{ 
+    background-color: rgba(0, 0, 0, 0.176);
+    width: max-content;
+    padding: 35px;
+} 
+#sec-1 h6{
+    padding-bottom: 40px;
+} 
+#gallery{
+    text-align: center;
+}
+#gallery img{
+    height: 100px;
+    margin: 10px;
+    transition: .5s;
+}
+#gallery img:hover{
+    transform: scale(1.1);
+}
+footer a{
+    text-decoration:none;
+    color: white;
+}
+footer span{
+    color: rgb(145, 26, 26);
+    font-size: 20px;
+}
+footer label{
+    color: rgb(67, 136, 136);
+    font-size: 20px;
+}
+#top-button{
+    color: rgb(21, 105, 21);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
